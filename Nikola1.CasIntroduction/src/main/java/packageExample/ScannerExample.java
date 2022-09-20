@@ -31,7 +31,7 @@ public class ScannerExample {
             if(answer2.equals("no")){
                 System.out.println("Sry David Im busy tonight");
             }else if(answer2.equals("yes")){
-                System.out.println("Nice i realy like her, will be there 100%");
+                System.out.println("Nice i really like her, will be there 100%");
             }
         }
     }
