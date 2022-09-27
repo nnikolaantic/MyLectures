@@ -48,17 +48,28 @@ public class PracticeArray {
         
         
 //        Pronadji specificnu vrednost u arrayu
-            int[] myArray1 = {
-            1789, 2035, 1899, 1456, 2013, 
-            1458, 2458, 1254, 1472, 2365, 
-            1456, 2265, 1457, 2456};
-            
-            int trazeniBroj = 123123; 
-            
-            for (int n : myArray1) {
-                if (trazeniBroj == n) {
-                    System.out.println("myArray1 sadzri trazenu vrednost : " + trazeniBroj );
-                }  
-            }
+        int[] myArray1 = {
+        1789, 2035, 1899, 1456, 2013, 
+        1458, 2458, 1254, 1472, 2365, 
+        1456, 2265, 1457, 2456};
+
+        int trazeniBroj = 123123; 
+
+        for (int n : myArray1) {
+            if (trazeniBroj == n) {
+                System.out.println("myArray1 sadzri trazenu vrednost : " + trazeniBroj );
+            }  
+        }
+                // declaring and initializing 2D array
+        int arr[][]
+            = { { 2, 7, 9 }, { 3, 6, 1 }, { 7, 4, 2 } };
+  
+        // printing 2D array
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++)
+                System.out.print(arr[i][j] + " ");
+  
+            System.out.println();
+        }
     }
 }
