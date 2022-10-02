@@ -10,6 +10,7 @@ package GettersAndSetters;
  * @author Anta
  */
 public class ClassExample {
+    public String LosaPraksa;
     private String argument1;
     private String argument2;
     private String argument3;
