@@ -12,6 +12,7 @@ package GettersAndSetters;
 public class Test {
     public static void main(String[] args) {
         ClassExample ce =  new ClassExample("arg1","arg2","arg3","arg4");
+        ce.losaPraksa = "Losa praksa";
 //        ce.argument1
         System.out.println(ce.getArgument1());
         System.out.println(ce.getArgument2());
