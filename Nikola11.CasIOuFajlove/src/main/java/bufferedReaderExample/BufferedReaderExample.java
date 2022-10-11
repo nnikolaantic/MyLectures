@@ -16,6 +16,20 @@ public class BufferedReaderExample {
 
     public static void main(String[] args) {
         ucitajIIspisiString();
+        //        SKENER UCITAVA SAMO PO 1 STRING, KARAKTER, BROJ...
+        Scanner scan = new Scanner(System.in);
+        String s = scan.next();
+        System.out.println("Unesite purku preko scanera");
+        System.out.println(s);
+        
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Unesite poruku preko buffera");
+            String sb = br.readLine();
+            System.out.println(sb);
+        } catch (IOException ex) {
+            Logger.getLogger(BufferedReaderExample.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     public static void ucitajIIspisiString() {
