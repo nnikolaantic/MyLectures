@@ -18,6 +18,7 @@ public class BufferedReaderIParsiranje {
         
 //        Isto se moze raditi i sa build inovanim java kalsama ma da je to ne preporucljivo
         Integer i = new Integer(2);
+        System.out.println(i);
         
 //        Metode koje nisus staticke se mogu pozvati preko inicijalizovanih objekata klase u kojoj je metoda definisana
         BufferedReaderExample be = new BufferedReaderExample();
