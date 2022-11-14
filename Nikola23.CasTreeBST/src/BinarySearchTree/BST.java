@@ -20,9 +20,6 @@ public class BST {
 
     Node root;
 
-//    public void insertFromRoot(int val){
-//        root = insert(root, 0);
-//    }
     public void myInsert(int val){
         insert(root, val);
     }
