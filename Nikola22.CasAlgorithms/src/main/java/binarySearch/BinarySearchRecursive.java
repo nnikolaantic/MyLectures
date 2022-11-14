@@ -43,7 +43,8 @@ public class BinarySearchRecursive {
             System.out.println("Nismo nasli broj : " + x);
             return -1;
         }
-        int mid = left + right / 2;
+        int mid = (right + left) / 2;
+//            int mid = left + ((right - left) / 2); sprecava overflow
         if (arr[mid] == x) {
             System.out.println("Nasli smo broj : " + x);
             return x;
