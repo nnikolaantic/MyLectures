@@ -38,7 +38,7 @@ public class BinarySearchIteration {
 //            int mid = left + ((right - left) / 2); sprecava overflow
             if (arr[mid] == x) {
                 System.out.println("Nasli smo broj : " + x);
-                return x;
+                return mid;
             } else if (x < arr[mid]){
                 right = mid -1;
             } else{
