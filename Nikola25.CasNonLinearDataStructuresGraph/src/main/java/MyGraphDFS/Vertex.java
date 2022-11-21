@@ -40,7 +40,7 @@ public class Vertex {
         this.visited = visited;
     }
 
-    public List<Vertex> getNeighbors() {
+    public LinkedList<Vertex> getNeighbors() {
         return neighbors;
     }
 
