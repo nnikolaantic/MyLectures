@@ -27,7 +27,7 @@ public class SQLPreparedStatement {
             String sqlQuery = "INSERT INTO student VALUES(?,?,?)";
             PreparedStatement preparedStatement = myConnection.prepareStatement(sqlQuery);
             // Naseljavamo statement sa podacima koje zelimo da unesemo u tabelu
-            preparedStatement.setInt(1, 2);
+            preparedStatement.setInt(1, 7);
             preparedStatement.setString(2, "Ana");
             preparedStatement.setString(3, "Antic");
             
